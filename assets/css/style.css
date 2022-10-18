@@ -13,7 +13,15 @@ body {
     display: flex;
     padding: 20px;
     background-color: #06b7bd;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 25px;
 }
 
 .header nav ul li {
@@ -30,8 +38,8 @@ a {
 .profile-pic {
     display: flex;
     justify-content: center;
-    height: 300px;
-    width: 50%;
+    height: 175px;
+    width: 100%;
     padding: 20px;
 }
 
@@ -41,24 +49,35 @@ a {
 
 .content aside {
     margin-right: 20px;
-    margin-left: 0%;
+    margin-left: 5px;
+    background-color: #06b7bd;
+    border: 3px;
+    border-style: hidden;
+    border-radius: 5px;
     padding: 20px;
     float: left;
     width: 20%;
     height: 50%;
 }
 
+aside p {
+    margin-top: 10px;
+}
+
 .content article {
+    display: flex;
+    background-color: #0b73b9;
     margin: 5px;
+    margin-top: 15px;
     border: 5px;
     border-style: solid;
     border-radius: 5px;
-    float: inherit;
 }
 
 /* keep section towards bottom */
 .contact-info {
-
+    margin-top: 25px;
+    margin-right: 550px;
 }
 
 .contact-info .contact-links {
