@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: aqua;
+}
+
+/* insert header css underneath '.header', above '.hero' */
+.header {
+    display: flex;
+    padding: 20px;
+    background-color: #06b7bd;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.header nav ul li {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 15px;
+}
+
+a {
+    color: rgb(14, 138, 14);
+}
+
+.profile-pic {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 50%;
+    padding: 20px;
+}
+
+.content {
+    
+}
+
+.content aside {
+    margin-right: 20px;
+    margin-left: 0%;
+    padding: 20px;
+    float: left;
+    width: 20%;
+    height: 50%;
+}
+
+.content article {
+    margin: 5px;
+    border: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    float: inherit;
+}
+
+/* keep section towards bottom */
+.contact-info {
+
+}
+
+.contact-info .contact-links {
+    display: none;
+    padding: 1% 0;
+}
+.contact-info:hover .contact-links {
+    display: block;
+}
