@@ -2,8 +2,9 @@
 <html lang="en-us">
 <head>
     <meta charset="UTF=8" />
+    <link rel="reset.css" href="./assets/css/reset.css"">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Dylan Casabona Developer Portfolio</title>
+    <title>Dev Portfolio - Dylan Casabona</title>
 </head>
 
 <body>
@@ -11,45 +12,43 @@
         <h1>Dylan Casabona</h1>
         <nav>
             <ul class="nav-link"><!-- insert page shortcuts -->
-                <li ><a href="#">Deployed Work</a></li>
-                <li ><a href="">Contact Info</a></li>
+                <li ><a href="#deployed-work">Deployed Work</a></li>
+                <li ><a href="#contact-info">Contact Info</a></li>
             </ul>
         </nav>
     </header>
 
     <main class="content">
-        <aside id="about me" class="about me">
-            <img src="./assets/images/profile-pic.jpeg" alt="Standing atop a mountain" class="profile-pic">
-            <h2>A Bit About Me</h2>
-            <p>Young man beginning his venture into the world of coding. Always loved technology and tinkering around with it, whether it was taking apart old electronics as a kid or exploring all the settings and capabilities of devices and applications today.</p>
-        </aside>
-        <article id="prework-study-guide" class="deployed-article">
-            <h2>Prework Study Guide</h2>
-            <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
-        </article>
-        <article id="horiseon-refactor" class="deployed-article">
-            <h2>Horiseon Refactor Project</h2>
-            <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
-        </article>
-        <article class="deployed article">
-            <h2>To be Developed</h2>
-            <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
-        </article>
-        <article class="deployed article">
-            <h2>To be Developed</h2>
-            <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
-        </article>
+        <section>
+            <aside id="about me" class="about me">
+                <img src="./assets/images/profile-pic.jpeg" alt="Standing atop a mountain" class="profile-pic">
+                <h2>A Bit About Me</h2>
+                <p>Young man beginning his venture into the world of coding. Always loved technology and tinkering around with it, whether it was taking apart old electronics as a kid or exploring all the settings and capabilities of devices and applications today.</p>
+                <br>
+                <p>I mostly grew up in Colorado, moved to Arizona at 15 and recently moved back, driving from Phoenix to Morrison. I'm beginning the Denver University coding bootcamp, to complete in April 2023.</p>
+            </aside>
+        </section>
+        <section id="deployed-work">
+            <article id="prework-study-guide" class="deployed-article">
+                <h2>Prework Study Guide</h2>
+                <a href="https://dylancas.github.io/prework-study-guide/" target="_blank"><!--<img src="./assets/images/dylancas.github.io_prework-study-guide_.png">--></a>
+            </article>
+            <article id="horiseon-refactor" class="deployed-article">
+                <h2>Horiseon Refactor Project</h2>
+                <a href="https://dylancas.github.io/horiseon-seo-optimization/" target="_blank"><!--<img src="./assets/images/dylancas.github.io_horiseon-seo-optimization_.png">--></a>
+            </article>
+        </section>
     </main>
 
     <!-- Keep following contact-info section at bottom-->
-    <section class="contact-info">
+    <footer id="contact-info" class="contact-info">
         <h2>Show My Info</h2>
         <ul class="contact-links">
-          <li>Email: <a href="#">djcasabona12@gmail.com</a></li>
+          <li>Email: djcasabona12@gmail.com</li>
           <li>LinkedIn: <a href="https://www.linkedin.com/in/dylan-casabona-b143a9204/" target="_blank">Dylan Casabona</a></li>
           <li>FreeCodeCamp Profile: <a href="https://www.freecodecamp.org/TruMello_98" target="_blank">TruMello_98</a></li>
         </ul>
-    </section>
+    </footer>
 </body>
 
 

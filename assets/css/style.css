@@ -25,7 +25,7 @@ h2 {
 }
 
 .header nav ul li {
-    display: inline-flex;
+    display: inline-block;
     flex-direction: column;
     flex-wrap: wrap;
     padding-top: 15px;
@@ -66,6 +66,9 @@ aside p {
 
 .content article {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
     background-color: #3AB9F8;
     margin: 5px;
     margin-top: 15px;
@@ -75,8 +78,18 @@ aside p {
     border-radius: 5px;
 }
 
+article img {
+    height: auto;
+    width: auto;
+}
+
+#prework-study-guide {
+
+}
+
 /* keep section towards bottom */
-.contact-info {
+footer {
+    display: flex;
     margin-top: 25px;
     margin-right: 550px;
     margin-left: 25px;
