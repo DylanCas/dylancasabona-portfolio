@@ -79,15 +79,22 @@ aside p {
 }
 
 article img {
-    height: auto;
-    width: auto;
+    height: 200px;
+    width: 200px;
 }
 
-#prework-study-guide {
-
+.project-image {
+    object-fit: cover;
+    overflow: hidden;
+    object-position: top;
+    filter: blur(5px);
 }
 
-/* keep section towards bottom */
+.project-image:hover {
+    filter: none;
+}
+
+/* keep contact section towards bottom */
 footer {
     display: flex;
     margin-top: 25px;
@@ -105,4 +112,12 @@ footer {
 }
 .contact-info:hover .contact-links {
     display: block;
+}
+
+@media screen and (min-width: 480px) {
+
+}
+
+@media screen and {min-width: 
+
 }
