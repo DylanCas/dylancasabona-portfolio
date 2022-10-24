@@ -17,18 +17,19 @@ body {
     border-bottom-right-radius: 3px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-h1 {
-    font-size: 40px;
-}
-h2 {
-    font-size: 25px;
-}
 
 .header nav ul li {
     display: inline-block;
     flex-direction: column;
     flex-wrap: wrap;
     padding-top: 15px;
+}
+
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 25px;
 }
 
 a {
@@ -111,10 +112,14 @@ footer ul li {
     padding: 1% 0;
 }
 
+.contact-info:hover .contact-links {
+    display: block;
+}
+
 @media screen and (max-width: 992px) {
 
 }
 
 @media screen and (max-width: 768px) {
-    
+
 }
