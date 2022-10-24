@@ -43,10 +43,6 @@ a {
     padding: 20px;
 }
 
-.content {
-    
-}
-
 .content aside {
     margin-right: 20px;
     margin-left: 5px;
@@ -106,18 +102,19 @@ footer {
     background-color: #3AB9F8;
 }
 
+footer ul li {
+    display: block;
+}
+
 .contact-info .contact-links {
     display: none;
     padding: 1% 0;
 }
-.contact-info:hover .contact-links {
-    display: block;
-}
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 992px) {
 
 }
 
-@media screen and {min-width: 
-
+@media screen and (max-width: 768px) {
+    
 }
