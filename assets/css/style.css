@@ -11,18 +11,20 @@ body {
 /* insert header css underneath '.header', above '.hero' */
 .header {
     display: flex;
-    padding: 20px;
+    flex-direction: column;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 2%;
+    padding-top: 2%;
     background-color: #0789CA;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.header nav ul li {
-    display: inline-block;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding-top: 15px;
+nav ul li {
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 h1 {
@@ -36,17 +38,9 @@ a {
     color: black;
 }
 
-.profile-pic {
-    display: flex;
-    justify-content: center;
-    height: 175px;
-    width: 100%;
-    padding: 20px;
-}
-
 .content aside {
-    margin-right: 20px;
-    margin-left: 5px;
+    margin-right: 3%;
+    margin-left: 2%;
     background-color: #0789CA;
     border: 3px;
     border-style: hidden;
@@ -58,7 +52,15 @@ a {
 }
 
 aside p {
-    margin-top: 10px;
+    margin-top: 3%;
+}
+
+.profile-pic {
+    display: flex; 
+    justify-content: center;
+    height: 90%;
+    width: 100%;
+    padding: 5%;
 }
 
 .content article {
@@ -67,9 +69,10 @@ aside p {
     flex-wrap: wrap;
     text-align: center;
     background-color: #3AB9F8;
-    margin: 5px;
-    margin-top: 15px;
-    margin-right: 15px;
+    margin: 2%;
+    margin-top: 3%;
+    margin-right: 3%;
+    margin-left: 3%;
     border: 5px;
     border-style: hidden;
     border-radius: 5px;
@@ -94,9 +97,12 @@ article img {
 /* keep contact section towards bottom */
 footer {
     display: flex;
+    flex-direction: column;
     margin-top: 25px;
-    margin-right: 550px;
-    margin-left: 25px;
+    margin-right: 50%;
+    margin-left: 10%;
+    margin-bottom: 8%;
+    padding-left: 2%;
     border: 3px;
     border-radius: 5px;
     border-style: hidden;
@@ -104,7 +110,7 @@ footer {
 }
 
 footer ul li {
-    display: block;
+    display: block; 
 }
 
 .contact-info .contact-links {
