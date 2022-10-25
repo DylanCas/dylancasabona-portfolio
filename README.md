@@ -12,4 +12,7 @@
 - The contact info box at the bottom has a minor hover effect that will then reveal the listed contact info beneath. 
 
 <!-- Insert link and screen shot of the page before submitting -->
-<img src="/.assets/images/project-screenshot.png">
+
+![screenshot](./assets/images/project-screenshot.png)
+
+Link : https://dylancas.github.io/dylancasabona-portfolio/
