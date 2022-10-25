@@ -8,7 +8,7 @@ body {
     background-color: #072AC8;
 }
 
-/* insert header css underneath '.header', above '.hero' */
+/* insert header related css underneath '.header'*/
 .header {
     display: flex;
     flex-direction: column;
