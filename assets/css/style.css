@@ -38,7 +38,8 @@ a {
     color: black;
 }
 
-.content aside {
+aside {
+    margin-top: 3%;
     margin-right: 3%;
     margin-left: 2%;
     background-color: #0789CA;
@@ -61,6 +62,11 @@ aside p {
     height: 90%;
     width: 100%;
     padding: 5%;
+}
+
+.deployedWork {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .content article {
@@ -92,6 +98,42 @@ article img {
 
 .project-image:hover {
     filter: none;
+}
+
+#trail-planner {
+    position: relative;
+    text-align: center;
+}
+
+.trailPlannerTitle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#horiseon-refactor {
+    position: relative;
+    text-align: center;
+}
+
+.horiseonRefactorTitle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#prework-study-guide {
+    position: relative;
+    text-align: center;
+}
+
+.studyGuideTitle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* keep contact section towards bottom */
