@@ -124,6 +124,14 @@ aside p {
     color: #acf7c1;
 }
 
+.highlight {
+    flex: 2
+}
+
+.highlightImg {
+    width:inherit;
+}
+
 /* keep contact section towards bottom */
 footer {
     display: flex;
