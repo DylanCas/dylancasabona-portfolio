@@ -8,7 +8,6 @@ body {
     background-color: #072AC8;
 }
 
-/* insert header related css underneath '.header'*/
 .header {
     display: flex;
     flex-direction: column;
@@ -80,11 +79,8 @@ aside p {
     border: 5px;
     border-style: hidden;
     border-radius: 5px;
-}
-
-article img {
-    height: 200px;
-    width: 200px;
+    position: relative;
+    text-align: center;
 }
 
 .project-image {
@@ -92,66 +88,40 @@ article img {
     overflow: hidden;
     object-position: top;
     filter: blur(5px);
+    height: 200px;
+    width: 200px;
 }
 
 .project-image:hover {
     filter: none;
 }
 
-#trail-planner {
-    position: relative;
-    text-align: center;
-}
-
-.trailPlannerTitle {
+.title {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-#horiseon-refactor {
-    position: relative;
-    text-align: center;
+.GitText {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 125%;
 }
 
-.horiseonRefactorTitle {
+.TBDtitle{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: #acf7c1;
 }
-
-#prework-study-guide {
-    position: relative;
-    text-align: center;
-}
-
-.studyGuideTitle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.TBD {
-    position: relative;
-    text-align: center;
-}
-
-.TBDtitle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #acf7c1
-}
-
 .TBDtext {
     position: absolute;
     bottom: 8px;
     left: 16px;
-    color: #acf7c1
+    color: #acf7c1;
 }
 
 /* keep contact section towards bottom */
