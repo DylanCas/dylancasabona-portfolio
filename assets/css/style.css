@@ -73,8 +73,6 @@ aside p {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    text-align: center;
-    background-color: #3AB9F8;
     margin: 2%;
     margin-top: 3%;
     margin-right: 3%;
@@ -146,12 +144,14 @@ article img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: #acf7c1
 }
 
 .TBDtext {
     position: absolute;
     bottom: 8px;
     left: 16px;
+    color: #acf7c1
 }
 
 /* keep contact section towards bottom */
